@@ -1,0 +1,29 @@
+.custom{
+  width:1200px;
+  margin:100px auto 0;
+  padding:20px;
+  border:2px solid #ccc;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  box-sizing:border-box;
+}
+.pic{width:700px;}
+.pic>img{width:100%;}
+.selector{
+  width:400px;
+  padding:15px;
+  box-sizing:border-box;
+}
+.selector>p{
+  margin-bottom:30px;
+  font-size:30px;
+  line-height:50px;
+}
+.selector>p>label{
+  padding-right:20px;
+}
+.selector>p>select{
+  font-size:30px;
+  line-height:50px;
+}
